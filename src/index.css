@@ -451,6 +451,9 @@ button:hover,
   display: inline-block;
   width: 120px;
 }
+.tel-em {
+  align-items: center !important;
+}
 
 /* For Mobile Portrait View */
 @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {

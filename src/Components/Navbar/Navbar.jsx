@@ -21,13 +21,13 @@ const Navbar = () => {
 
           <div className="responsive max-md:block xl:hidden 2xl:hidden lg:hidden">
             <ul className="flex flex-col content-center justify-center">
-              <li className="font-lexend text-[18px] flex justify-center content-center">
+              <li className="tel-em font-lexend text-[18px] flex justify-center content-center">
                 <img src={email} alt="" className="w-[16px]" />
                 <a href="mailto:admission@nifafinearts.com">
                   admission@nifafinearts.com
                 </a>
               </li>
-              <li className="font-lexend text-[18px] flex content-center justify-center">
+              <li className="tel-em font-lexend text-[18px] flex content-center justify-center">
                 <img src={phone} alt="" className="w-[10px]" />
                 <a href="#">+91-9555112200/9810130552</a>
               </li>
