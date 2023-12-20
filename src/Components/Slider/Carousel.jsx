@@ -63,43 +63,6 @@ const Carousel = ({ children }) => {
           &#10095;
         </button>
       </div>
-      {/* <div id="markque-container">
-        <div className="container">
-          <div id="para-marq">
-            <div id="headingdd">
-              <h3 style="font-weight:bold;">Nifa Updates:: </h3>
-            </div>
-          </div>
-          <div id="marqueeq">
-            <marquee
-              behavior="scroll"
-              direction="left"
-              scrollamount="3"
-              scrolldelay="1"
-              onmouseover="this.stop()"
-              onmouseout="this.start()"
-            >
-              <p>
-                <strong>
-                  All NIFA courses are now available worldwide through our Live
-                  and Interactive Online Classes. Please&nbsp;download the NIFA
-                  app from our online classes page to register for a
-                  complimentary trial class.
-                </strong>
-              </p>
-            </marquee>
-          </div>
-        </div>
-      </div> */}
-      {/* <div className="page">
-        {content.map((item, index) => (
-          <span
-            key={index}
-            className={counter - 1 === index ? "dot active" : "dot"}
-            onClick={() => handlePage(index + 1)}
-          />
-        ))}
-      </div> */}
     </div>
   );
 };

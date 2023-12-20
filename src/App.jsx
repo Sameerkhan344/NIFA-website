@@ -7,13 +7,11 @@ import Footer from "./Components/Footer/Footer";
 import Card1 from "./Components/Card/cards";
 import Student from "./Components/Student/Student";
 import Slider from "./Components/Slider/Slider";
-import Marque from "./Components/Marque";
 const App = () => {
   return (
     <main className="body">
       {/* <Navbar /> */}
       <Slider />
-      <Marque />
       <WelcomeCntr />
       <Onlinecls />
       <Card1 />

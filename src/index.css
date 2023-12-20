@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&family=Satisfy&family=Splash&family=The+Nautigal:wght@700&display=swap"); */
+
 body {
   font-size: 14px;
   line-height: 1.42857143;
@@ -107,7 +109,7 @@ body {
   z-index: 999;
   /* color: #ffffff; */
   display: block;
-  line-height: 23px;
+  line-height: 34px;
   outline: medium none;
   text-align: justify;
   text-decoration: none;
@@ -117,121 +119,6 @@ body {
   border-color: #b11e6f;
   color: #b11e6f;
 }
-/* .heading {
-  font-size: 36px;
-  font-weight: 900;
-  font-family: lexend;
-}
-.container p:nth-last-child(1) {
-  font-size: 15px;
-  color: #000;
-  font-weight: 900;
-  font-family: lexend;
-}
-.btn {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-}
-.btn-outline,
-.btn-outline:hover,
-.btn-outline:focus {
-  background: linear-gradient(
-    90deg,
-    rgba(177, 30, 111, 1) 0%,
-    rgba(74, 14, 192, 1) 100%
-  ) !important;
-  border: 2px solid #fff !important;
-  margin-top: 1rem;
-  font-size: 15px !important;
-  padding: 10px 20px !important;
-  border-radius: 30px !important;
-  color: #fff !important;
-}
-.list-inline {
-  padding-left: 0;
-  list-style: none;
-  margin-left: -5px;
-}
-.list-inline > li {
-  display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
-}
-.embed-responsive-16by9 {
-  border: 20px solid #3356ca;
-}
-
-.downapp {
-  background: linear-gradient(100deg, rgba(0, 0, 0, 1), rgba(35, 31, 32, 0.6)),
-    url(/src//assets//images//appbg.jpg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 90px 15px;
-  color: #fff;
-} */
-/* .embed-responsive {
-  position: relative;
-  display: block;
-  height: 0;
-  padding: 0;
-  overflow: hidden;
-} */
-/* .embed-responsive .embed-responsive-item,
-.embed-responsive embed,
-.embed-responsive iframe,
-.embed-responsive object,
-.embed-responsive video {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-} */
-/* For Mobile Portrait View */
-/* @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
-  p {
-    font-size: 13px;
-    margin: 0 0 10px;
-  }
-  .heading {
-    font-size: 19px;
-    font-weight: 900;
-    font-family: lexend;
-    line-height: 25px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-  }
-  .container p {
-    font-size: 15px;
-  }
-  .nappimg {
-    text-align: left !important;
-  }
-  .nappimg img {
-    width: 150px;
-  }
-  .embed-responsive-16by9 {
-    border: 5px solid #ca3333;
-  }
-  .embed-responsive-16by9 {
-    margin-top: 5rem;
-  }
-} */
-/* For Tablet View */
-/* @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .header-top {
-    padding: 8px 100px;
-  }
-} */
 
 .btn {
   display: inline-block;
@@ -454,7 +341,15 @@ button:hover,
 .tel-em {
   align-items: center !important;
 }
-
+.ft-bg {
+  /* padding-top: 5rem; */
+  /* padding-bottom: 2rem; */
+  /* background-color: #f9f9f9; */
+  color: #000;
+  background: url(./assets//images//fotbg2.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* For Mobile Portrait View */
 @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
   p {

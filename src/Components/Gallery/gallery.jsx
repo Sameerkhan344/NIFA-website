@@ -111,7 +111,7 @@ const itemData = [
 
 const gallery = () => {
   return (
-    <section>
+    <section className="bg-white">
       <div className="container lg:w-[970px] xl:w-[1000px] 2xl:w-[1200px] text-center 2xl:pt-[50px] 2xl:pb-[70px]">
         <h2 className="font-lexend md:text-[30px] lg:text-[30px] xl:text-[30px] 2xl:text-[30px] font-semibold">
           Students Work
