@@ -3,8 +3,8 @@ import React from "react";
 const Marque = () => {
   return (
     <>
-      <div className="marquee md:w-[768px] lg:w-[970px] xl:w-[1000px] 2xl:w-[1170px]">
-        <h3 className="font-lexend font-black leading-[23px] max-md:text-[15px] 2xl:text-[20px] w-[25%] ">
+      <div className="marquee md:w-[768px] lg:w-[970px] xl:w-[1170px] 2xl:w-[1170px]">
+        <h3 className="font-lexend font-black leading-[23px] max-md:text-[25px] 2xl:text-[20px] max-md:w-[40%] 2xl:w-[25%]  ">
           Nifa Updates::
         </h3>
         <div className="marqueeq">
@@ -16,7 +16,7 @@ const Marque = () => {
             onmouseover="this.stop()"
             onmouseout="this.start()"
           >
-            <p className="text-[18px] text-[#b11e6f] leading-[23px] font-lexend max-md:text-[15px]">
+            <p className="text-[20px] 2xl:text-[18px] text-[#b11e6f] leading-[23px] font-lexend max-md:text-[15px]">
               <strong>
                 All NIFA courses are now available worldwide through our Live
                 and Interactive Online Classes. Please&nbsp;download the NIFA

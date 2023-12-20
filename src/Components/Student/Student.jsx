@@ -25,7 +25,7 @@ const Student = () => {
               <div className="embed-responsive container">
                 <div className="embed-responsive-16by9 border-[5px solid white]">
                   <iframe
-                    className="h-[29vh] md:h-[30vh]  lg:h-[30vh] xl:h-[20vh] 2xl:h-[30vh] w-full"
+                    className="h-[29vh] md:h-[50vh]  lg:h-[30vh] xl:h-[20vh] 2xl:h-[30vh] w-full"
                     src="https://www.youtube.com/embed/-9cJjaLXKqE?rel=0"
                     frameborder="0"
                     allowfullscreen=""
@@ -37,7 +37,7 @@ const Student = () => {
               <div className="embed-responsive container">
                 <div className="embed-responsive-16by9 border-[5px solid white]">
                   <iframe
-                    className="h-[29vh] md:h-[30vh]  lg:h-[30vh] xl:h-[20vh] 2xl:h-[30vh] w-full"
+                    className="h-[29vh] md:h-[50vh]  lg:h-[30vh] xl:h-[20vh] 2xl:h-[30vh] w-full"
                     src="https://www.youtube.com/embed/-9cJjaLXKqE?rel=0"
                     frameborder="0"
                     allowfullscreen=""

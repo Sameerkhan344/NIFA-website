@@ -10,7 +10,7 @@ const Onlinecls = () => {
   return (
     <>
       <section className="downapp xl:flex 2xl:flex 2xl:justify-center 2xl:text-center  lg:flex lg:justify-center lg:text-center xl:flex xl:justify-center xl:text-center">
-        <div className="2xl:flex lg:flex xl:flex lg:w-[970px] xl:w-[970px] 2xl:w-[1170px] lg:text-center lg:justify-center lg:items-center 2xl:text-center 2xl:justify-center 2xl:items-center xl:text-center xl:justify-center xl:items-center">
+        <div className="2xl:flex lg:flex xl:flex md:w-[768px] lg:w-[970px] xl:w-[1170px] 2xl:w-[1170px] lg:text-center lg:justify-center lg:items-center 2xl:text-center 2xl:justify-center 2xl:items-center xl:text-center xl:justify-center xl:items-center">
           <div className="container text-center lg:text-left xl:text-left 2xl:text-left">
             <div className="">
               <h2 className="font-lexend text-[30px] 2xl:mb-[10px]">

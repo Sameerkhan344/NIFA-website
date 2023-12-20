@@ -7,7 +7,7 @@ const Download = () => {
       <p className="2xl:pb-[10px] font-lexend  font-semibold text-[20px] leading-[23px] capitalize">
         Download the app
       </p>
-      <ul className="nappimg flex mt-[10px]  content-center justify-start sm:content-start sm:justify-start md:content-start max-md:justify-center 2xl:content-start 2xl:justify-start xl:content-start xl:justify-start lg:content-start lg:justify-start">
+      <ul className="nappimg flex mt-[10px]  content-center justify-start sm:content-center sm:justify-center md:content-start max-md:justify-center 2xl:content-start 2xl:justify-start xl:content-start xl:justify-start lg:content-start lg:justify-start">
         <li className="px-[5px]">
           <a href="https://play.google.com/store/apps/details?id=co.thanos.fljvr">
             <div>

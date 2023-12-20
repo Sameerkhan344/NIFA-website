@@ -310,16 +310,14 @@ const Footer = () => {
               </ul>
             </Typography>
 
-            <div className=" gap-4 sm:justify-center">
+            <div className="flex flex-col max-md:justify-start max-md:content-start max-md:grid">
               <Download />
               <Typography
                 variant="small"
                 className="mb-4 text-center font-normal text-black font-bold text-[11px] mt-[2rem] md:mb-0"
               >
                 &copy; copyright {currentYear}{" "}
-                <a href="https://material-tailwind.com/">
-                  NIFA Fine Arts. All Rights Reserved
-                </a>
+                <a href="#">NIFA Fine Arts. All Rights Reserved</a>
               </Typography>
             </div>
           </div>

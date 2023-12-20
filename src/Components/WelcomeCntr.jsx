@@ -6,7 +6,7 @@ const WelcomeCntr = () => {
   return (
     <section className="bg-white">
       <Marque />
-      <div className="container font-spartan font-bold text-center mt-[20px] flex-wrap pb-[25px] text-[13px] lg:w-[970px] xl:w-[970px] 2xl:w-[1170px] 2xl:pt-[50px] 2xl:pb-[70px]">
+      <div className="container font-spartan font-bold text-center mt-[20px] flex-wrap pb-[25px] text-[13px] lg:w-[970px] xl:w-[1170px] 2xl:w-[1170px] 2xl:pt-[50px] 2xl:pb-[70px]">
         <div id="heading">
           <h1 className="font-lexend text-[19px] mt-[5px] mb-[20px] lg:text-[36px] xl:text-[36px]  2xl:text-[36px]">
             Welcome To <span>National Institute of Fine Arts </span>
