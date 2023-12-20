@@ -3,7 +3,7 @@ import React from "react";
 const Marque = () => {
   return (
     <>
-      <div className="marquee md:w-[768px] lg:w-[970px] xl:w-[1170px] 2xl:w-[1170px]">
+      <div className="container marquee md:w-[768px] lg:w-[970px] xl:w-[1170px] 2xl:w-[1170px]">
         <h3 className="font-lexend font-black leading-[23px] max-md:text-[25px] 2xl:text-[20px] max-md:w-[40%] 2xl:w-[25%]  ">
           Nifa Updates::
         </h3>
