@@ -402,6 +402,9 @@ button:hover,
   .top-header-text {
     font-size: 13px !important;
   }
+  .dropnav-full-width {
+    width: 100% !important;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -431,5 +434,8 @@ button:hover,
   }
   .top-header-text {
     font-size: 15px !important;
+  }
+  .dropnav-full-width {
+    width: 100% !important;
   }
 }

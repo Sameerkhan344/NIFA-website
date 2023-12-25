@@ -9,8 +9,8 @@ const Navbar = () => {
   return (
     <>
       <HeaderTopCntr />
-      <nav className="flex content-center container lg:w-[1070px] xl:w-[1170px] md:w-[768px] 2xl:w-[1170px] flex content-center 2xl:justify-between  xl:justify-between text-center md:justify-center justify-center lg:flex-row xl:flex-row 2xl:flex-row md:flex-col">
-        <div className="w-full">
+      <nav className="flex content-center container lg:w-[1070px] xl:w-[1170px] md:w-[768px] 2xl:w-[1170px] flex content-center 2xl:justify-between  xl:justify-between text-center md:justify-center justify-center lg:flex-row xl:flex-row 2xl:flex-row md:flex-col flex-wrap">
+        <div className="dropnav-full-width">
           <div id="logo">
             <a href="./">
               <div>
@@ -38,7 +38,7 @@ const Navbar = () => {
 
         <div className="flex content-center justify-center">
           <div className="menu flex content-center justify-center items-center max-md:hidden">
-            <ul className="nav font-lexend text-[15px] font-bold flex">
+            <ul className="nav font-lexend text-[15px] font-bold flex flex-wrap md:py-[10px]">
               <li>
                 <a href="">Home</a>
               </li>
