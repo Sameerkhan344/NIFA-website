@@ -274,7 +274,7 @@ const Footer = () => {
                   admission@nifafinearts.com
                 </a>
               </p>
-              <ul className="list-inline nfot-soclist flex">
+              <ul className="list-inline nfot-soclist flex mt-[25px]">
                 <li className="list-inline-item">
                   <a
                     href="https://www.facebook.com/nifafinearts"

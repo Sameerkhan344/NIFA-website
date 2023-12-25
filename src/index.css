@@ -319,7 +319,7 @@ button:hover,
 }
 .marquee strong {
   display: inline-block;
-  font-size: 16px;
+  /* font-size: 16px; */
   color: #b11e6f;
   line-height: 23px;
   font-weight: bold;
@@ -385,6 +385,23 @@ button:hover,
     padding: 10px;
     margin: 20px 0;
   }
+  .marquee {
+    align-items: start !important;
+    flex-direction: column;
+  }
+  .marqueeq {
+    width: 100%;
+  }
+  .header-social {
+    margin-left: 0px !important;
+    gap: 5px;
+  }
+  #student-container {
+    display: none;
+  }
+  .top-header-text {
+    font-size: 13px !important;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -397,6 +414,22 @@ button:hover,
     color: #fff;
     border: none;
     padding-left: 10px;
+    margin: 0px;
+  }
+  .marquee {
+    align-items: start !important;
+    flex-direction: column;
+  }
+  .marqueeq {
+    width: 100%;
+  }
+  #student-container {
+    display: none;
+  }
+  .responsive-menu {
     margin: 20px;
+  }
+  .top-header-text {
+    font-size: 15px !important;
   }
 }

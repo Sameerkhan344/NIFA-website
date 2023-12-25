@@ -8,7 +8,7 @@ const HeaderTopCntr = () => {
     <>
       <section className="header-top flex content-center justify-center">
         <div className="text-center font-black tracking-wider lg:flex md:justify-between lg:justify-around lg:w-[970px] xl:w-[1500px] 2xl:w-[1170px]">
-          <p className="font-spartan text-center text-[13px] md:text-[15px]">
+          <p className="top-header-text font-spartan text-center text-[13px] md:text-[15px]">
             Welcome to the National Institute of Fine Arts
           </p>
           <div className="flex flex-col sm:flex-row md:flex-row items-center">

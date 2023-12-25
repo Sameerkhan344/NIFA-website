@@ -7,9 +7,7 @@ const Dropdown = () => {
         name="page_name"
         onchange="location = this.options[this.selectedIndex].value;"
       >
-        <option selected="selected">
-          Home
-        </option>
+        <option selected="selected">Home</option>
         <option>About us</option>
         <option>&nbsp;-Facilities</option>
 

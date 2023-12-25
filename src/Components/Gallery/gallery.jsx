@@ -107,6 +107,14 @@ const itemData = [
     img: pakshi,
     title: "Candle",
   },
+  {
+    img: flower,
+    title: "Flower",
+  },
+  {
+    img: women,
+    title: "Women",
+  },
 ];
 
 const gallery = () => {

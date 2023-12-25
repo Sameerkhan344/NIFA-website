@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       <HeaderTopCntr />
       <nav className="flex content-center container lg:w-[1070px] xl:w-[1170px] md:w-[768px] 2xl:w-[1170px] flex content-center 2xl:justify-between  xl:justify-between text-center md:justify-center justify-center lg:flex-row xl:flex-row 2xl:flex-row md:flex-col">
-        <div className="">
+        <div className="w-full">
           <div id="logo">
             <a href="./">
               <div>
