@@ -1,9 +1,5 @@
 import React from "react";
 import Button from "./Button/Button";
-// import bgimg from "../assets/images/appbg.jpg"
-
-import gplay from "../assets/images/gplay.png";
-import appstore from "../assets/images/appstore.png";
 import Download from "./Download";
 
 const Onlinecls = () => {

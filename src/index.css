@@ -151,7 +151,6 @@ body {
 }
 p {
   font-size: 13px;
-  /* margin: 0 0 10px; */
 }
 .embed-responsive-16by9 {
   border: 20px solid #fff;
@@ -221,24 +220,6 @@ img {
   object-position: center;
 }
 
-/* @-webkit-keyframes trans {
-  from {
-    left: 100%;
-  }
-  to {
-    left: 0%;
-  }
-}
-
-@keyframes trans {
-  from {
-    left: 100%;
-  }
-  to {
-    left: 0%;
-  }
-} */
-
 @keyframes fade {
   from {
     opacity: 0.1;
@@ -307,15 +288,9 @@ button:hover,
   align-items: center;
   margin-top: 10px;
   overflow-x: hidden;
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 .marquee strong {
   display: inline-block;
-  /* font-size: 16px; */
   color: #b11e6f;
   line-height: 23px;
   font-weight: bold;
@@ -336,9 +311,6 @@ button:hover,
   align-items: center !important;
 }
 .ft-bg {
-  /* padding-top: 5rem; */
-  /* padding-bottom: 2rem; */
-  /* background-color: #f9f9f9; */
   color: #000;
   background: url(./assets//images//fotbg2.jpeg) no-repeat;
   background-size: cover;
@@ -375,14 +347,9 @@ button:hover,
   cursor: pointer;
   transition: all 0.25s linear 0.05s;
 }
-/* #nav li a {
-  font-weight: 900;
-  line-height: 24px;
-  font-family: spartan;
-} */
+
 #nav ul {
   font-family: spartan;
-  /* font-weight: 900 !important; */
   position: absolute;
   z-index: 999;
   background: #ededed;
@@ -415,15 +382,12 @@ button:hover,
 /* For Mobile Portrait View */
 @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
   p {
-    /* font-size: 15px; */
     margin: 0 0 10px;
   }
   .downapp {
     padding: 50px 0 !important;
   }
-  /* .nappimg {
-    text-align: left !important;
-  } */
+
   .embed-responsive-16by9 {
     margin-top: 5rem;
     border: 5px solid #fff;
@@ -442,7 +406,6 @@ button:hover,
     width: 100%;
     height: auto;
     text-align: left;
-    /* margin: 20px 0px; */
     background: #0b1f71;
     color: #fff;
     border: none;
@@ -476,7 +439,6 @@ button:hover,
     width: 100%;
     height: auto;
     text-align: left;
-    /* margin: 20px 0px; */
     background: #0b1f71;
     color: #fff;
     border: none;
